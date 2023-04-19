@@ -1858,7 +1858,7 @@ function Library:button(options)
 	end
 	
 	function methods:Delete()
-	    self:Destroy()
+	    buttonContainer:Destroy()
 	end
 	
 	return methods
