@@ -1856,7 +1856,11 @@ function Library:button(options)
 	function methods:SetText(txt)
 		text.Text = txt
 	end
-
+	
+	function methods:Delete()
+	    self:Destroy()
+	end
+	
 	return methods
 end
 
