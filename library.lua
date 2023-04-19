@@ -435,7 +435,7 @@ function Library:create(options)
 		Name = "Donut Hub",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://github.com/nleantnlant/donut-hub-library"
+		Link = "Donut Hub"
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
